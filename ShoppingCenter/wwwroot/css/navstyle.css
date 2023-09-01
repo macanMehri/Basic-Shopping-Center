@@ -1,0 +1,147 @@
+﻿.navbar ul {
+    background-color: rgb(25, 38, 69);
+    list-style: none;
+    padding: 0%;
+    overflow: hidden;
+    margin-top: 0px;
+}
+.navbar-brand{
+    background-color: rgb(20, 30, 54);
+    height: 25px
+}
+.nav-item a {
+    text-decoration: none;
+    color: rgb(245, 227, 179);
+    display: block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 19px;
+    float: left;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(21, 32, 59);
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(1, 15, 28);
+    font-family: Aptos, Arial;
+}
+main{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.products-table {
+    width: 1500px;
+    border: solid thin;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.products-table td {
+    font-size: 16px;
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+    border: solid thin;
+    border-color: rgb(245, 227, 179);
+    height: 40px;
+}
+.products-table th {
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 30px;
+    text-align: left;
+    border: solid thin;
+    border-color: rgb(245, 227, 179);
+}
+h1{
+    margin: 25px;
+    font-size: 50px;
+}
+.create-btn {
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(245, 227, 179);
+    color: rgb(25, 38, 69);
+    border: 3px;
+    border-radius: 20px;
+    font-size: 22px;
+    width: 240px;
+    height: 30px;
+    cursor: pointer;
+    display: block;
+}
+
+.create-btn:hover {
+    background-color: rgb(240, 195, 98);
+    font-weight: bold;
+}
+
+.box{
+    text-align: center;
+    float: right;
+    margin-right:310px;
+}
+.inputs div {
+    width: 850px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.form-text {
+    border-radius: 3px;
+    border: 0px;
+    width: 850px;
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+}
+
+.inputs {
+    border: none;
+    width: 900px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputs label:hover{
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: rgb(114, 179, 143);
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 22px;
+    width: 120px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: rgb(79, 130, 102);
+    font-weight: bold;
+}
+.text-danger {
+    display: inline;
+    font-size: 16px;
+    color: rgb(245, 92, 37);
+}
+.in-table-btn {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.in-table-btn:hover{
+    font-weight: bold;
+}

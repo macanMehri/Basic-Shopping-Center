@@ -1,0 +1,40 @@
+﻿@model Product
+
+
+<h1>
+    Edit Page
+</h1>
+<hr />
+<div class="inputs">
+    <form method="post" asp-action="Edit">
+        <div>
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-text" />
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label asp-for="Cost"></label>
+            <input asp-for="Cost" class="form-text" />
+            <span class="text-danger" asp-validation-for="Cost"></span>
+        </div>
+        <div>
+            <label asp-for="Amount"></label>
+            <input asp-for="Amount" class="form-text" />
+            <span class="text-danger" asp-validation-for="Amount"></span>
+        </div>
+        <div>
+            <label asp-for="Brand"></label>
+            <input asp-for="Brand" class="form-text" />
+            <span class="text-danger" asp-validation-for="Brand"></span>
+        </div>
+        <div>
+            <label asp-for="Category"></label>
+            <input asp-for="Category" class="form-text" />
+            <span class="text-danger" asp-validation-for="Category"></span>
+        </div>
+        <div>
+            <button type="submit" class="create-btn" style="margin-left:auto; margin-right:auto; display: inline;">Update</button>
+            <button asp-controller="Products" asp-action="Index" class="create-btn" style="margin-left:auto; margin-right:auto; display: inline;">Back To List</button>
+        </div>
+    </form>
+</div>
